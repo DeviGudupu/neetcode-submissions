@@ -7,6 +7,6 @@ class Solution {
         char[] tSort=t.toCharArray();
         Arrays.sort(sSort);
         Arrays.sort(tSort);
-        return Arrays.equals(sSort,tSort);
+        return Arrays.equals(sSort, tSort);
     }
 }
